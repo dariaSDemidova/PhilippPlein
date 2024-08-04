@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHILIPP PLEIN | Sale</title>
+    <link rel="icon" href="./assets/icons/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/css/normalize.css">
+    <link rel="stylesheet" href="./styles/css/style.min.css">
+</head>
+<body>
+    <header class="header">
+        <img src="./assets/images/header.jpg" alt="header">
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1 class="hero__title">Sale</h1>
+            <div class="hero__buttons">
+                <a href="#" class="hero__button">Sale men</a>
+                <a href="#" class="hero__button">Sale women</a>
+            </div>
+        </section>
+
+        <section class="categories">
+            <div class="container">
+                <div class="categories__wrapper">
+                    <div class="categories__container">
+                        <h2 class="categories__title">Where do you want to start?</h2>
+                        <div class="toggle-switch">
+                            <input type="radio" id="men" name="toggle" checked>
+                            <label for="men" class="toggle-label">MEN</label>
+                            <input type="radio" id="women" name="toggle">
+                            <label for="women" class="toggle-label">WOMEN</label>
+                            <div class="toggle-slider"></div>
+                        </div>
+                    </div>
+                    <div class="categories__buttons">
+                        <a href="#" class="categories__button">View all</a>
+                        <a href="#" class="categories__button">Clothing</a>
+                        <a href="#" class="categories__button">Denim</a>
+                        <a href="#" class="categories__button">T-shirts</a>
+                        <a href="#" class="categories__button">Jogging</a>
+                        <a href="#" class="categories__button">Shoes</a>
+                        <a href="#" class="categories__button">Sneakers</a>
+                        <a href="#" class="categories__button">Bags</a>
+                        <a href="#" class="categories__button">Accessories</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="exclusive">
+            <div class="container">
+                <div class="exclusive__cards">
+                    <div class="exclusive__card exclusive__card-static">
+                        <h3 class="exclusive__text">Exclusive VIP SALE is here.</h3>
+                        <h3 class="exclusive__text">Shop before it opens to the public.</h3>
+                    </div>
+                    <div class="exclusive__card" data-order="1" data-gender="men">
+                        <img src="./assets/images/wristwatch.jpg" alt="wristwatch">
+                        <h4 class="exclusive__card-title">Product name 1</h4>
+                    </div>
+                    <div class="exclusive__card" data-order="2" data-gender="men">
+                        <img src="./assets/images/black-shorts.jpg" alt="black-shorts">
+                        <h4 class="exclusive__card-title">Product name 2</h4>
+                    </div>
+                    <div class="exclusive__card" data-order="3" data-gender="men">
+                        <img src="./assets/images/black-sneakers.jpg" alt="black-sneakers">
+                        <h4 class="exclusive__card-title">Product name 3</h4>
+                    </div>
+                    <div class="exclusive__card exclusive__card-hidden" data-order="4" data-gender="men">
+                        <img src="./assets/images/bag.jpg" alt="bag">
+                        <h4 class="exclusive__card-title">Product name 4</h4>
+                    </div>
+                    <div class="exclusive__card exclusive__card-hidden" data-order="5" data-gender="men">
+                        <img src="./assets/images/white-t-shirt.jpg" alt="white-t-shirt">
+                        <h4 class="exclusive__card-title">Product name 5</h4>
+                    </div>
+
+                    <div class="exclusive__card" data-order="1" data-gender="women">
+                        <img src="./assets/images/dress.jpg" alt="colored-dress">
+                        <h4 class="exclusive__card-title">Product name 1</h4>
+                    </div>
+                    <div class="exclusive__card" data-order="2" data-gender="women">
+                        <img src="./assets/images/jacket.jpg" alt="jacket">
+                        <h4 class="exclusive__card-title">Product name 2</h4>
+                    </div>
+                    <div class="exclusive__card" data-order="3" data-gender="women">
+                        <img src="./assets/images/yellow-bag.jpg" alt="yellow-bag">
+                        <h4 class="exclusive__card-title">Product name 3</h4>
+                    </div>
+                    <div class="exclusive__card exclusive__card-hidden" data-order="4" data-gender="women">
+                        <img src="./assets/images/smile-dress.jpg" alt="smile-dress">
+                        <h4 class="exclusive__card-title">Product name 4</h4>
+                    </div>
+                    <div class="exclusive__card exclusive__card-hidden" data-order="5" data-gender="women">
+                        <img src="./assets/images/black-sneakers.jpg" alt="black-sneakers">
+                        <h4 class="exclusive__card-title">Product name 5</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="best">
+            <div class="container">
+                <h2 class="best__title">Discover our best looks on <span>Summer Sale</span></h2>
+                <div class="best__wrapper">
+                    <div class="best__slider">
+                        <div class="best__slider-images">
+                            <img src="./assets/images/white-shorts.jpg" alt="white-shorts" data-gender="men">
+                            <img src="./assets/images/shirt.jpg" alt="shirt" data-gender="men">
+                            <img src="./assets/images/sneakers.jpg" alt="sneakers" data-gender="men">
+                            <img src="./assets/images/polo-t-shirt.jpg" alt="polo-t-shirt" data-gender="men">
+                            <img src="./assets/images/colored-shorts.jpg" alt="colored-shorts" data-gender="men">
+                            <img src="./assets/images/t-shirt.jpg" alt="t-shirt" data-gender="men">
+                            <img src="./assets/images/yellow-dress.jpg" alt="yellow-dress" data-gender="women" style="display: none;">
+                            <img src="./assets/images/women-t-shirt.jpg" alt="women-t-shirt" data-gender="women" style="display: none;">
+                            <img src="./assets/images/silver-shoes.jpg" alt="silver-shoes" data-gender="women" style="display: none;">
+                            <img src="./assets/images/colored-shoes.jpg" alt="colored-shoes" data-gender="women" style="display: none;">
+                            <img src="./assets/images/long-dress.jpg" alt="long-dress" data-gender="women" style="display: none;">
+                            <img src="./assets/images/yellow-dress.jpg" alt="yellow-dress.jpg" data-gender="women" style="display: none;">
+                        </div>
+                        <div class="best__slider-dots">
+                            <span class="best__slider-dot" data-slide="0"></span>
+                            <span class="best__slider-dot" data-slide="1"></span>
+                            <span class="best__slider-dot" data-slide="2"></span>
+                            <span class="best__slider-dot" data-slide="3"></span>
+                            <span class="best__slider-dot" data-slide="4"></span>
+                            <span class="best__slider-dot" data-slide="5"></span>
+                        </div>
+                    </div>
+                    <div class="best__image">
+                        <img src="./assets/images/man.jpg" alt="man" data-gender="men">
+                        <img src="./assets/images/woman.jpg" alt="woman" data-gender="women" style="display: none;">
+                        <a href="#" class="best__button">Sale clothing</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shoes">
+            <div class="container">
+                <h2 class="shoes__title">Ensure yourself style in every step <span>Summer Sale</span></h2>
+                <div class="shoes__image">
+                    <img src="./assets/images/banner-sneakers.jpg" alt="sneakers" data-gender="men">
+                    <img src="./assets/images/banner-shoes.jpg" alt="shoes" data-gender="women" style="display: none;">
+                    <a href="#" class="shoes__button" data-gender="men">Sale sneakers</a>
+                    <a href="#" class="shoes__button" data-gender="women" style="display: none;">Sale shoes</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="evergreen">
+            <div class="container">
+                <h2 class="evergreen__title">Your wardrobe’s new evergreen <span>Summer Sale</span></h2>
+                <div class="evergreen__cards">
+                    <div class="evergreen__card">
+                        <img src="./assets/images/men_shoes.jpg" alt="shoes" data-gender="men">
+                        <img src="./assets/images/women_shoes.jpg" alt="shoes" data-gender="women" style="display: none;">
+                        <a href="#" class="evergreen__link">SALE SHOES</a>
+                    </div>
+                    <div class="evergreen__card">
+                        <img src="./assets/images/men_t-shirt.jpg" alt="t-shirt" data-gender="men">
+                        <img src="./assets/images/women_dress.jpg" alt="dress" data-gender="women" style="display: none;">
+                        <a href="#" class="evergreen__link" data-gender="men">SALE T-SHIRTS</a>
+                        <a href="#" class="evergreen__link" data-gender="women" style="display: none;">SALE DRESSES</a>
+                    </div>
+                    <div class="evergreen__card">
+                        <img src="./assets/images/men_bag.jpg" alt="bag" data-gender="men">
+                        <img src="./assets/images/women_bags.jpg" alt="bag" data-gender="women" style="display: none;">
+                        <a href="#" class="evergreen__link">SALE BAGS</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="looks">
+            <div class="container">
+                <h2 class="looks__title">Shop the runway looks <span>Summer Sale</span></h2>
+                <div class="looks__cards">
+                    <div class="looks__card">
+                        <img class="looks__card-img" src="./assets/images/runway_look_1.jpg" alt="runway_look_1" data-gender="men">
+                        <button class="looks__card-cart1 cart-icon" data-gender="men"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="men">
+                            <img class="modal__image" src="./assets/images/runway_look_1.jpg" alt="runway_look_1">
+                            <h4 class="modal__title">Sweater</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <button class="looks__card-cart2 cart-icon" data-gender="men"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="men">
+                            <img class="modal__image" src="./assets/images/white-shorts.jpg" alt="white-shorts">
+                            <h4 class="modal__title">Shorts</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <img class="looks__card-img" src="./assets/images/woman_look_1.jpg" alt="runway_look_1" data-gender="women" style="display: none;">
+                        <button class="looks__card-cart1 cart-icon" data-gender="women" style="display: none;"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="women" style="display: none;">
+                            <img class="modal__image" src="./assets/images/woman_look_1.jpg" alt="runway_look_1">
+                            <h4 class="modal__title">Jacket</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <button class="looks__card-cart2 cart-icon" data-gender="women" style="display: none;"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="women" style="display: none;">
+                            <img class="modal__image" src="./assets/images/woman_look_1.jpg" alt="runway_look_1">
+                            <h4 class="modal__title">Skirt</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                    </div>
+
+                    <div class="looks__card">
+                        <img class="looks__card-img" src="./assets/images/runway_look_2.jpg" alt="runway_look_2" data-gender="men">
+                        <button class="looks__card-cart1 cart-icon" data-gender="men"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="men">
+                            <img class="modal__image" src="./assets/images/runway_look_2.jpg" alt="runway_look_2">
+                            <h4 class="modal__title">Jacket</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <button class="looks__card-cart2 cart-icon" data-gender="men"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="men">
+                            <img class="modal__image" src="./assets/images/runway_look_2.jpg" alt="runway_look_2">
+                            <h4 class="modal__title">Pants</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <img class="looks__card-img" src="./assets/images/woman_look_2.jpg" alt="runway_look_2" data-gender="women" style="display: none;">
+                        <button class="looks__card-cart1 cart-icon" data-gender="women" style="display: none;"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="women" style="display: none;">
+                            <img class="modal__image" src="./assets/images/woman_look_2.jpg" alt="runway_look_2">
+                            <h4 class="modal__title">Jacket</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <button class="looks__card-cart2 cart-icon" data-gender="women" style="display: none;"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="women" style="display: none;">
+                            <img class="modal__image" src="./assets/images/woman_look_2.jpg" alt="runway_look_2">
+                            <h4 class="modal__title">Skirt</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                    </div>
+
+                    <div class="looks__card">
+                        <img class="looks__card-img" src="./assets/images/runway_look_3.jpg" alt="runway_look_3" data-gender="men">
+                        <button class="looks__card-cart1 cart-icon" data-gender="men"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="men">
+                            <img class="modal__image" src="./assets/images/runway_look_3.jpg" alt="runway_look_3">
+                            <h4 class="modal__title">Jacket</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <button class="looks__card-cart2 cart-icon" data-gender="men"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="men">
+                            <img class="modal__image" src="./assets/images/runway_look_3.jpg" alt="runway_look_3">
+                            <h4 class="modal__title">Pants</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <img class="looks__card-img" src="./assets/images/woman_look_3.jpg" alt="runway_look_3" data-gender="women" style="display: none;">
+                        <button class="looks__card-cart1 cart-icon" data-gender="women" style="display: none;"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="women" style="display: none;">
+                            <img class="modal__image" src="./assets/images/woman_look_3.jpg" alt="runway_look_3">
+                            <h4 class="modal__title">Sweater</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                        <button class="looks__card-cart2 cart-icon" data-gender="women" style="display: none;"><img src="./assets/icons/cart.svg" alt="cart"></button>
+                        <div class="modal" data-gender="women" style="display: none;">
+                            <img class="modal__image" src="./assets/images/woman_look_3.jpg" alt="runway_look_3">
+                            <h4 class="modal__title">Pants</h4>
+                            <p class="modal__price">&#8364; 285,00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <img src="./assets/images/footer.jpg" alt="footer">
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+.shoes {
+    margin-top: 99px;
+    &__title {
+        margin-left: 20px;
+        @include text-styles(36px, 600, 43.57px, $black-color);
+        span {
+            color: $red-color;
+        }
+
+        @media screen and (max-width: 480px) {
+            font-size: 32px;
+        }
+    }
+
+    &__image {
+        margin-top: 45px;
+        position: relative;
+        img {
+            width: 100%;       
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__button {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 8%;
+        @include button;
+    }
+}
