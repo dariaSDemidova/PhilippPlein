@@ -16,7 +16,7 @@
         align-items: baseline;
         gap: 20px;
 
-        @media screen and (max-width: 1660px) {
+        @media screen and (max-width: 1670px) {
             flex-direction: column;
             align-items: center;
         }
@@ -114,7 +114,6 @@
 
 .toggle-slider {
     position: absolute;
-    top: 2px;
     left: 2px;
     width: 126px;
     height: 63px;
